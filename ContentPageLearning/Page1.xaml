@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms" xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml" x:Class="ContentPageLearning.Page1">
+	<ContentPage.Content>
+		<StackLayout BackgroundColor="Yellow" Margin="10, 30, 10, 20" Padding="10"
+			VerticalOptions="End"> <!--this means that alignment will start at end, aka bottom-->
+			<BoxView BackgroundColor="Blue">
+			</BoxView>
+			<Entry Text="I am an entry"></Entry>
+			<DatePicker></DatePicker>
+			<Editor Text="I am an editor"></Editor>
+		</StackLayout>
+		<!--stack layout means you can stack items, like on a bookshelf-->
+	</ContentPage.Content>
+</ContentPage>
